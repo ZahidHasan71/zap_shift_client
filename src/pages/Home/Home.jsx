@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import Brands from './Brands';
-import Review from './Review';
+import Reviews from './Reviews';
 import Work from './Work';
 import Service from './Service';
 
@@ -15,7 +15,7 @@ const Home = () => {
             <Work></Work>
             <Service></Service>
             <Brands></Brands>
-            <Review reviewPromise={reviewPromise}></Review>
+            <Reviews reviewPromise={reviewPromise}></Reviews>
         </div>
     );
 };
