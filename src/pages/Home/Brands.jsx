@@ -11,7 +11,7 @@ import brandImg7 from '../../assets/brands/start_people.png'
 const Brands = () => {
     const brandLogo = [brandImg1, brandImg2, brandImg3, brandImg4, brandImg5, brandImg6, brandImg7]
     return (
-        <div className='my-18'>
+        <div className='my-20 mx-20'>
             <div className="text-center">
                 <h2 className='text-2xl font-bold text-secondary my-10 '>We've helped thousands of sales teams</h2>
             </div>
@@ -22,6 +22,7 @@ const Brands = () => {
                     }
                 </div>
             </Marquee>
+
         </div>
     );
 };
