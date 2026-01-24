@@ -13,12 +13,12 @@ const Brands = () => {
     return (
         <div className='my-18'>
             <div className="text-center">
-                <h2 className='text-3xl font-bold text-secondary my-10 '>We've helped thousands of sales teams</h2>
+                <h2 className='text-2xl font-bold text-secondary my-10 '>We've helped thousands of sales teams</h2>
             </div>
             <Marquee behavior="scroll" direction="left" scrollamount="5">
                 <div className="flex items-center gap-10">
                     {
-                        brandLogo.map(logo => <img src={logo} alt="" className="w-auto" />)
+                        brandLogo.map((logo, index) => <img src={logo} key={index} alt="" className="w-auto" />)
                     }
                 </div>
             </Marquee>
